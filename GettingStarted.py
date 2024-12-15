@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 
 mydataset = {
     'cars' : ["BMW", "Volvo", "Ford"],
@@ -6,7 +6,7 @@ mydataset = {
     "Number" : ["This one", "This two", "This three"]
 }
 
-myvar = pandas.DataFrame(mydataset)
+myvar = pd.DataFrame(mydataset)
 
 print(myvar)
 
