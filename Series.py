@@ -21,3 +21,6 @@ calories = {"day1" : 420, "day2" : 380, "day3" : 390}
 CaloriesTable = pd.Series(calories)
 
 print(CaloriesTable)
+
+Only12day = pd.Series(calories, index=["day1", "day2"])
+print(Only12day)
