@@ -24,3 +24,13 @@ print(CaloriesTable)
 
 Only12day = pd.Series(calories, index=["day1", "day2"])
 print(Only12day)
+
+
+data = {
+    "calories" : [420, 380, 370],
+    "duration" : [50,45,45]
+}
+
+myvar = pd.DataFrame(data)
+
+print(myvar)
