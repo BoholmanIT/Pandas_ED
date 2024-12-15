@@ -12,3 +12,5 @@ print(myvar[0])
 myvar = pd.Series(a, index=["x", "y", "z"])
 
 print(myvar)
+
+print(myvar["y"])
