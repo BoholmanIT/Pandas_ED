@@ -14,3 +14,10 @@ myvar = pd.Series(a, index=["x", "y", "z"])
 print(myvar)
 
 print(myvar["y"])
+
+
+calories = {"day1" : 420, "day2" : 380, "day3" : 390}
+
+CaloriesTable = pd.Series(calories)
+
+print(CaloriesTable)
