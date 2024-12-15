@@ -8,3 +8,7 @@ myvar = pd.Series(a)
 print(myvar)
 
 print(myvar[0])
+
+myvar = pd.Series(a, index=["x", "y", "z"])
+
+print(myvar)
